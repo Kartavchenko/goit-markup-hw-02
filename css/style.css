@@ -7,6 +7,7 @@
   color: var(--background-color);
   color: var(--brand-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -59,6 +60,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  text-align: center;
   box-sizing: border-box;
   width: 1600px;
   height: 600px;
@@ -74,23 +76,35 @@ ul {
   font-size: 16px;
   font-weight: 700;
   border-radius: 4px;
-  background: #2196f3;
   color: #ffffff;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
   padding: 8px 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
   cursor: pointer;
 }
 
 /* секция преимуществ */
 
-.section-list {
+.section-title {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section .section-list {
   color: var(--brand-color);
   font-size: 14px;
   line-height: 1.1;
   font-weight: 700;
 }
 
-.description {
+.section .description {
   color: #757575;
   font-size: 14px;
   line-height: 1.7;
@@ -100,14 +114,14 @@ ul {
 
 /* наша команда */
 
-.name {
+.section .name {
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.position {
+.section .position {
   color: #757575;
   font-size: 16px;
   line-height: 1.2;
@@ -115,10 +129,21 @@ ul {
 
 /* подвал */
 
-.conect {
-  color: #ffffff;
+.down .intro {
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
+}
+
+.down .conect {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.down .conect:hover,
+.down .conect:focus {
+  color: #2196f3;
 }
 
 /* цвет основного текста #212121;*/
