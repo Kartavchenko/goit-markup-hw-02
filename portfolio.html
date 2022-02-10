@@ -13,101 +13,115 @@
         rel="stylesheet">
         
 </head>
-
-<body class="page">
-    <header>
+<body>
+    <header class="header">
         <!-- Navigation-->
-        <nav>
-            <a href="./index.html" class="logo"><span>Web</span>studio</a>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="link">Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+        <nav class="nav">
+            <a class="nav-header" href="./index.html"><span class="icon">Web</span>studio</a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Студия</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Портфолио</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
-        <ul class="registration">
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="contact-list">
+            <li class="contact-item">
+                <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="contact-item">
+                <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <main>
-        <!-- Фильтры портфолио -->
-        <section class="section">
+        <!-- Filters portfolio -->
+        <section class="portfolio">
             <h1 hidden>Portfolio</h1>
-            <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+            <ul class="button-list">
+                <li class="button-item">
+                    <button class="dropdown" type="button">Все</button>
+                </li>
+                <li class="button-item">
+                    <button class="dropdown" type="button">Веб-сайты</button>
+                </li>
+                <li class="button-item">
+                    <button class="dropdown" type="button">Приложения</button>
+                </li>
+                <li class="button-item">
+                    <button class="dropdown" type="button">Дизайн</button>
+                </li>
+                <li class="button-item">
+                    <button class="dropdown" type="button">Маркетинг</button>
+                </li>
             </ul>
-            <!-- Портфолио -->
-            <ul>
-                <li>
-                    <img src="./images/techcryk.jpg" alt="страница веб сайта на ноутбуке" width="370" height="294">
-                    <p class="text">Технокряк</p>
-                    <p class="description">Веб-сайт</p>
+            <!--Foto Portfolio -->
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/techcryk.jpg" alt="страница веб сайта на ноутбуке" width="370" height="294">
+                    <p class="gallery-text">Технокряк</p>
+                    <p class="gallery-description">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./images/poster-orlean-colden.jpg" alt="постер баскетбольный два баскетболиста" width="370" height="294">
-                    <p class="text">Постер New Orlean vs Golden Star</p>
-                    <p class="description">Дизайн</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/poster-orlean-colden.jpg" alt="постер баскетбольный два баскетболиста" width="370" height="294">
+                    <p class="gallery-text">Постер New Orlean vs Golden Star</p>
+                    <p class="gallery-description">Дизайн</p>
                 </li>
-                <li>
-                    <img src="./images/seafood.jpg" alt="логотип ресторана seafood" width="370" height="294">
-                    <p class="text">Ресторан Seafood</p>
-                    <p class="description">Приложение</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/seafood.jpg" alt="логотип ресторана seafood" width="370" height="294">
+                    <p class="gallery-text">Ресторан Seafood</p>
+                    <p class="gallery-description">Приложение</p>
                 </li>
-                <li>
-                    <img src="./images/prime.jpg" alt="наушники" width="370" height="294">
-                    <p class="text">Проект Prime</p>
-                    <p class="description">Маркетинг</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/prime.jpg" alt="наушники" width="370" height="294">
+                    <p class="gallery-text">Проект Prime</p>
+                    <p class="gallery-description">Маркетинг</p>
                 </li>
-                <li>
-                    <img src="./images/boxes.jpg" alt="картонные упаковочные коробки" width="370" height="294">
-                    <p class="text">Проект Boxes</p>
-                    <p class="description">Приложение</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/boxes.jpg" alt="картонные упаковочные коробки" width="370" height="294">
+                    <p class="gallery-text">Проект Boxes</p>
+                    <p class="gallery-description">Приложение</p>
                 </li>
-                <li>
-                    <img src="./images/borders.jpg" alt="страница сайта" width="370" height="294">
-                    <p class="text">Inspiration has no Borders</p>
-                    <p class="description">Веб-сайт</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/borders.jpg" alt="страница сайта" width="370" height="294">
+                    <p class="gallery-text">Inspiration has no Borders</p>
+                    <p class="gallery-description">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./images/limited-edition.jpg" alt="книжное ездание Limited Edition" width="370" height="294">
-                    <p class="text">Издание Limited Edition</p>
-                    <p class="description">Дизайн</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/limited-edition.jpg" alt="книжное ездание Limited Edition" width="370" height="294">
+                    <p class="gallery-text">Издание Limited Edition</p>
+                    <p class="gallery-description">Дизайн</p>
                 </li>
-                <li>
-                    <img src="./images/lab.jpg" alt="ярлык с надписью lab" width="370" height="294">
-                    <p class="text">Проект LAB</p>
-                    <p class="description">Маркетинг</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/lab.jpg" alt="ярлык с надписью lab" width="370" height="294">
+                    <p class="gallery-text">Проект LAB</p>
+                    <p class="gallery-description">Маркетинг</p>
                 </li>
-                <li>
-                    <img src="./images/growing.jpg" alt="страница сайта growing business" width="370" height="294">
-                    <p class="text">Growing Business</p>
-                    <p class="description">Приложение</p>
+                <li class="gallery-item">
+                    <img class="gallery-pic" src="./images/growing.jpg" alt="страница сайта growing business" width="370" height="294">
+                    <p class="gallery-text">Growing Business</p>
+                    <p class="gallery-description">Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
-    <!--Подвал-->
-    <footer>
-        <a href="" class="logo"><span>Web</span>studio</a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="contacts">
-            <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+    <!--Footer-->
+    <footer class="footer">
+        <a class="footer-link" href=""><span class="icon">Web</span>studio</a>
+        <address class="map">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="footer-item">
+                <a class="footer-contact" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
     </footer>
 </body>
-
 </html>
