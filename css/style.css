@@ -86,6 +86,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--dark-background);
+  text-transform: uppercase;
 }
 
 .hero-btn {
@@ -95,6 +96,7 @@ a {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  font-family: inherit;
 
   background: var(--blue-bnt);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -107,6 +109,7 @@ a {
   color: var(--main-text);
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .content-text {
@@ -159,6 +162,7 @@ a {
 .map {
   color: var(--white-text);
   line-height: 1.71;
+  font-style: normal;
 }
 
 .footer-contact {
@@ -181,6 +185,7 @@ a {
   font-size: 16px;
   line-height: 1.62;
   border-radius: 4px;
+  font-family: inherit;
 }
 
 .dropdown:hover,
@@ -194,7 +199,7 @@ a {
 
 /* gallery foto */
 /* color-text */
-.gallery-text {
+.gallery-title {
   color: var(--main-text);
   font-weight: 700;
   font-size: 18px;
