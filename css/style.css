@@ -72,6 +72,10 @@ a {
   color: var(--blue-hover);
 }
 
+.nav-link:active {
+  color: var(--blue-hover);
+}
+
 /* Hero */
 /* color-text */
 .hero {
